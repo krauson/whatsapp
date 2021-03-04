@@ -15,8 +15,8 @@
 # send_greet(hagai)
 
 def test():
-    while True:
-        print("Hagai is good:)")
+    for i in range(10):
+        print(i)
 
 
 test()
