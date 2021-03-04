@@ -11,4 +11,4 @@ def send_greet(contact_num: str):
 
 hagai = '+972546995552'
 barak = '+972504081472'
-send_greet(barak)
+send_greet(hagai)
