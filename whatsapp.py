@@ -4,7 +4,7 @@ import pywhatkit
 def send_greet(contact_num: str):
 
     msg = 'כבר אמרו לך שאתה אהוב וטוב מספיק היום? ;)'
-    hours = 10
+    hours = 13
     minutes = 0
     pywhatkit.sendwhatmsg(contact_num, msg, hours, minutes)
 
