@@ -7,6 +7,7 @@ def send_greet(contact_num: str):
     hours = 13
     minutes = 0
     pywhatkit.sendwhatmsg(contact_num, msg, hours, minutes)
+    print("hello world")
 
 
 hagai = '+972546995552'
